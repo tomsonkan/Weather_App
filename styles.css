@@ -1,0 +1,47 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(rgb(229, 236, 236), rgb(115, 146, 150));
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+ }
+
+ .location,
+ .temperature {
+   height: 30vh;
+   width: 50vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+.icon {
+  margin: 50px
+}
+
+ .locDescr {
+  height: 5vh;
+  width: 150vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+ .temperature {
+   flex-direction: column;
+ }
+
+ .degree-section {
+   display: flex;
+   align-items: center;
+ }
+
